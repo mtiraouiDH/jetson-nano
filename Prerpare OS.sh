@@ -21,7 +21,6 @@ if [ ! -d "${HOME}/jetson-nano/sources" ]; then
 	echo "pulling repo's"
 	git clone https://github.com/madisongh/meta-tegra.git -b warrior
 	git clone git://git.yoctoproject.org/poky -b warrior
-	git clone https://github.com/openembedded/openembedded-core.git -b warrior
 else
 	echo "Repo's Already Exist"
 fi
